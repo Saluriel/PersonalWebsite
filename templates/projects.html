@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+
+{%block title%}Projects{%endblock%}
+{% block content %}
+<h1 style="color:white;">My Projects</h1>
+<div class="album py-5 bg-dark">
+    <div class="container">
+        <p style="color: white;"><b>This website!</b>
+        <p style="color: white;"> I created this website to hold my projects and resume, have an easy way to contact
+            me, and link my LinkedIn!<br> This website is coded using Javascript, Node, and Express.
+        </p>
+        </p>
+        <hr style="background-color: white;">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <b>Personal Github</b>
+                    <div class="card-body">
+                        <center> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="100"></center>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="https://github.com/Saluriel"><button type="button"
+                                        class="btn btn-sm btn-outline-secondary">View</button></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p style="color: white;">My personal Github. This holds the various projects from the Software
+                    Engineering Bootcamp I am completing.</p>
+            </div>
+        </div>
+
+        <hr style="background-color: white;">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <b>Tattoo Booking Website</b>
+                    <div class="card-body">
+                        <img src="/tattoosite.PNG" width="100%">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="https://tattoobooking.herokuapp.com/"><button type="button"
+                                        class="btn btn-sm btn-outline-secondary">View</button></a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <p style="color: white;">I created a tattoo booking website for a local artist! The website was
+                    created
+                    with Python,
+                    PostgresQL, Flask, and
+                    WTForms. The form data is emailed to the client as well as the artist and is stored in a SQL
+                    database accessible
+                    by
+                    the artist. It is configured for mobile and browser use!</p>
+            </div>
+        </div>
+        <hr style="background-color: white;">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <b>Foraging Website - Github</b>
+                    <div class="card-body">
+                        <img src="/foraging_site.PNG" width="100%">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="https://github.com/Saluriel/plant_foraging_capstone"><button type="button"
+                                        class="btn btn-sm btn-outline-secondary">Github</button></a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <p style="color: white;">A website created to pin foraging locations/plants onto a map. I used
+                    HERE's
+                    free map
+                    API and created a full CRUD application where users can create an account, update their user
+                    information, create pins on a map, and even delete their account if they choose. It was created
+                    using
+                    Python, Javascript, and PostgresQL</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+{%endblock%}

@@ -12,7 +12,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(express.static('static'))
 
-
 nunjucks.configure("templates", {
     autoescape: true,
     express: app
